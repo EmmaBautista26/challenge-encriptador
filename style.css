@@ -1,0 +1,446 @@
+*{
+    background-color: #d6e4ff;
+    font-family: "Quicksand", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    display: flexbox;
+}
+
+.logo{
+    height: 50px;
+    width: 50px;
+    margin-left: 30px;
+    margin-top: 30px;
+    margin-bottom: 2px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 2px 2px #384663;
+
+}
+
+.cajaTextoUsuario{
+    margin-top: 30px;
+    margin-left: 70px;
+    margin-right: 10px;
+}
+
+.textoDelUsuario{
+    border: none;
+    background-color: #b9cffa;
+    border-radius: 10px;
+    height: 450px;
+    width: 800px;
+    font-size: 25px;
+    font-weight: bold;
+    color: #384663;
+    padding-left: 10px;
+    padding-top: 5px;
+    resize: none;
+
+}
+
+.textoDelUsuario::placeholder{
+    color: #384663;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.textoDelUsuario:hover{
+    cursor: text;
+    box-shadow: 1px 1px 2px 2px #384663;
+}
+.textoDelUsuario:focus{
+    outline: none;
+}
+
+.advertenciaParaUsuario{
+    margin-left: 70px;
+    margin-top: 5px;
+    font-size: 12px;
+    font-style: italic;
+    color: #1f2838;
+}
+
+.textoLeer{
+    border: none;
+    background-color: #ecf3ff;
+    border-radius: 10px;
+    height: 480px;
+    width: 400px;
+    background-image: url(imagenes/muñeco-busqueda.png);
+    background-repeat: no-repeat;
+    background-size: 330px;
+    background-position: center;
+    background-position-y: 150px;
+    margin-left: 20px;
+    margin-right: 20px;
+    color: #384663;
+    padding-left: 10px;
+    padding-top: 5px;
+    font-size: 25px;
+    resize: none;
+    
+
+}
+
+.textoLeer::placeholder{
+    color: #384663;
+    padding-left: 10px;
+    padding-top: 5px;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.textoLeer:focus{
+    outline: none;
+}
+
+main{
+    display: flex;
+}
+
+.encriptar{
+    margin-left: 70px;
+    margin-top: 5px;
+    padding-bottom: 2px;
+    width: 290px;
+    height: 30px;
+    background-color: #3f77e7;
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 1px 1px 2px 2px #384663;
+    cursor: pointer;
+
+}
+.encriptar:hover{
+    background-color: #003db6;
+    font-weight: bold;
+}
+
+.desencriptar{
+    margin-left: 10px;
+    margin-top: 5px;
+    padding-bottom: 2px;
+    width: 290px;
+    height: 30px;
+    background-color: #3f77e7;
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 1px 1px 2px 2px #384663;
+    cursor: pointer;
+
+}
+
+.desencriptar:hover{
+    background-color: #003db6;
+    font-weight: bold;
+}
+
+.btnCopiarTexto{
+    width: 300px;
+    height: 30px;
+    background-color: #3f77e7;
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 1px 1px 2px 2px #384663;
+    margin-top: 22px;
+    margin-left: 80px;
+    cursor: pointer;
+
+}
+
+.btnCopiarTexto:hover{
+    background-color: #003db6;
+    font-weight: bold;
+
+
+}
+
+.abajo{
+    font-size: 15px;
+    color: #384663;
+    font-family: "Quicksand", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    position: absolute;
+    text-align: right;
+    font-style: italic;
+    margin-top: 45px;
+    margin-left: 1150px;
+}
+
+.redes{
+    width: 20px;
+    height: 20px;
+    margin-right: 0px;
+    margin-top: 5px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+/*Parte responsiva cel*/
+@media screen and (max-width:480px){
+
+    main{
+        display: block;
+    }
+
+    .cajaTextoUsuario{
+        margin-top: 30px;
+        margin-left: 30px;
+        margin-right: 10px;
+    }
+
+    .textoDelUsuario{
+        border: none;
+        background-color: #b9cffa;
+        border-radius: 10px;
+        height: 450px;
+        width: 300px;
+        font-size: 25px;
+        font-weight: bold;
+        color: #384663;
+        padding-left: 10px;
+        padding-top: 5px;
+        resize: none;
+    
+    }
+
+    .advertenciaParaUsuario{
+        margin-left: 30px;
+        margin-top: 5px;
+        font-size: 12px;
+        font-style: italic;
+        color: #1f2838;
+    }
+
+    .encriptar{
+        margin-left: 30px;
+        margin-top: 5px;
+        padding-bottom: 2px;
+        width: 300px;
+        height: 30px;
+        background-color: #3f77e7;
+        color: white;
+        text-align: center;
+        font-size: 20px;
+        border-radius: 10px;
+        border: none;
+        box-shadow: 1px 1px 2px 2px #384663;
+        cursor: pointer;
+    
+    }
+    
+    .desencriptar{
+        margin-left: 30px;
+        margin-top: 10px;
+        padding-bottom: 2px;
+        width: 300px;
+        height: 30px;
+        background-color: #3f77e7;
+        color: white;
+        text-align: center;
+        font-size: 20px;
+        border-radius: 10px;
+        border: none;
+        box-shadow: 1px 1px 2px 2px #384663;
+        cursor: pointer;
+    
+    }
+    
+    .textoLeer{
+        border: none;
+        background-color: #ecf3ff;
+        border-radius: 10px;
+        height: 450px;
+        width: 300px;
+        background-image: url(imagenes/muñeco-busqueda.png);
+        background-repeat: no-repeat;
+        background-size: 330px;
+        background-position: center;
+        background-position-y: 150px;
+        margin-left: 28px;
+        margin-right: 20px;
+        margin-top: 30px;
+        color: #384663;
+        padding-left: 10px;
+        padding-top: 5px;
+        font-size: 25px;
+        resize: none;
+        
+    
+    }
+    
+    .btnCopiarTexto{
+        width: 300px;
+        height: 30px;
+        background-color: #3f77e7;
+        color: white;
+        text-align: center;
+        font-size: 20px;
+        border-radius: 10px;
+        border: none;
+        box-shadow: 1px 1px 2px 2px #384663;
+        margin-top: 10px;
+        margin-left: 30px;
+        cursor: pointer;
+    
+    }
+    
+    .abajo{
+        font-size: 15px;
+        color: #384663;
+        font-family: "Quicksand", sans-serif;
+        font-optical-sizing: auto;
+        font-style: normal;
+        position: absolute;
+        text-align: left;
+        font-style: italic;
+        margin-top: 15px;
+        margin-left: 30px;
+        padding-bottom: 10px;
+    }
+    
+    .redes{
+        width: 20px;
+        height: 20px;
+        margin-top: 5px;
+        cursor: pointer;
+    }
+
+}
+
+/*Parte responsiva tablet*/
+@media screen and (max-width:912px){
+    main{
+        display: block;
+    }
+
+    .cajaTextoUsuario{
+        margin-top: 30px;
+        margin-left: 30px;
+        margin-right: 10px;
+    }
+
+    .textoDelUsuario{
+        border: none;
+        background-color: #b9cffa;
+        border-radius: 10px;
+        height: 450px;
+        width: 700px;
+        font-size: 25px;
+        font-weight: bold;
+        color: #384663;
+        padding-left: 10px;
+        padding-top: 5px;
+        resize: none;
+    }
+
+    .advertenciaParaUsuario{
+        margin-left: 30px;
+        margin-top: 5px;
+        font-size: 12px;
+        font-style: italic;
+        color: #1f2838;
+    }
+
+    .encriptar{
+        margin-left: 30px;
+        margin-top: 5px;
+        padding-bottom: 2px;
+        width: 340px;
+        height: 30px;
+        background-color: #3f77e7;
+        color: white;
+        text-align: center;
+        font-size: 20px;
+        border-radius: 10px;
+        border: none;
+        box-shadow: 1px 1px 2px 2px #384663;
+        cursor: pointer;
+    }
+    
+    .desencriptar{
+        margin-left: 25px;
+        margin-top: 10px;
+        padding-bottom: 2px;
+        width: 340px;
+        height: 30px;
+        background-color: #3f77e7;
+        color: white;
+        text-align: center;
+        font-size: 20px;
+        border-radius: 10px;
+        border: none;
+        box-shadow: 1px 1px 2px 2px #384663;
+        cursor: pointer;
+    }
+    
+    .textoLeer{
+        border: none;
+        background-color: #ecf3ff;
+        border-radius: 10px;
+        height: 450px;
+        width: 700px;
+        background-image: url(imagenes/muñeco-busqueda.png);
+        background-repeat: no-repeat;
+        background-size: 330px;
+        background-position: center;
+        background-position-y: 150px;
+        margin-left: 28px;
+        margin-right: 20px;
+        margin-top: 30px;
+        color: #384663;
+        padding-left: 10px;
+        padding-top: 5px;
+        font-size: 25px;
+        resize: none;
+    }
+    
+    .btnCopiarTexto{
+        width: 300px;
+        height: 30px;
+        background-color: #3f77e7;
+        color: white;
+        text-align: center;
+        font-size: 20px;
+        border-radius: 10px;
+        border: none;
+        box-shadow: 1px 1px 2px 2px #384663;
+        margin-top: 10px;
+        margin-left: 250px;
+        cursor: pointer;
+    
+    }
+    
+    .abajo{
+        font-size: 15px;
+        color: #384663;
+        font-family: "Quicksand", sans-serif;
+        font-optical-sizing: auto;
+        font-style: normal;
+        position: absolute;
+        text-align: center;
+        font-style: italic;
+        margin-top: 15px;
+        margin-left: 320px;
+        padding-bottom: 10px;
+    }
+    
+    .redes{
+        width: 20px;
+        height: 20px;
+        margin-top: 5px;
+        cursor: pointer;
+    }
+
+}
